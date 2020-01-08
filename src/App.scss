@@ -1,0 +1,23 @@
+.inner-Profile {
+  h3 {
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+table {
+  td {
+    &:first-child {
+      text-transform: capitalize;
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: #ccc;
+        text-decoration: none;
+      }
+    }
+  }
+}
